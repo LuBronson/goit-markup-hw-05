@@ -1052,6 +1052,7 @@ textarea::placeholder {
 /* checkbox */
 .checkbox-container {
     margin-bottom: 24px;
+
 }
 
 .checkbox-input {}
@@ -1061,6 +1062,7 @@ textarea::placeholder {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .checkbox-logo-span {
