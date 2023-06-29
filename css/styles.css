@@ -1042,6 +1042,10 @@ textarea::placeholder {
     letter-spacing: 0.48px;
 }
 
+.comment-textarea:focus {
+    border-color: #4D5AE5;
+}
+
 .comment-textarea:focus-within {
     border-color: #4D5AE5;
 }
@@ -1077,11 +1081,6 @@ textarea::placeholder {
 
 .checkbox-logo {}
 
-.submit-modal-btn:hover .checkbox-logo-span {
-    background-color: #404bbf;
-    color: red;
-}
-
 .checkbox-input:checked .checkbox-logo-span {
     background-color: var(--ocean-link-color);
     border: none;
@@ -1091,7 +1090,6 @@ textarea::placeholder {
 .checkbox-link {
     color: var(--primary-brand-color)
 }
-
 
 .submit-modal-btn {
     display: block;
@@ -1115,6 +1113,7 @@ textarea::placeholder {
 .submit-modal-btn:hover {
     background-color: var(--ocean, #404BBF);
 }
+
 
 /* close btn */
 .close-btn {
@@ -1154,20 +1153,3 @@ textarea::placeholder {
 }
 
 /* close btn */
-
-
-/* modal logo */
-
-
-
-
-
-/* .input-block:hover .modal-logo, */
-
-
-
-
-
-
-
-.input-block input {}
