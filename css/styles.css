@@ -1086,7 +1086,8 @@ textarea::placeholder {
 }
 
 .checkbox-link {
-    color: var(--primary-brand-color)
+    color: var(--primary-brand-color);
+    text-decoration-line: underline;
 }
 
 .submit-modal-btn {
