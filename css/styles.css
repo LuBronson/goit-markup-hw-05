@@ -71,8 +71,6 @@ img {
 
 .visually-hidden {
     position: absolute;
-    width: 1px;
-    height: 1px;
     margin: -1px;
     border: 0;
     padding: 0;
@@ -947,7 +945,7 @@ img {
     font-size: 16px;
     text-align: center;
     font-weight: 500;
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
 }
@@ -1082,6 +1080,12 @@ textarea::placeholder {
 .checkbox-logo {}
 
 .checkbox-input:checked .checkbox-logo-span {
+    background-color: var(--ocean-link-color);
+    border: none;
+    fill: var(--footer-text-color)
+}
+
+.checkbox-container input:checked .checkbox-logo-span {
     background-color: var(--ocean-link-color);
     border: none;
     fill: var(--footer-text-color)
