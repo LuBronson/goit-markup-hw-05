@@ -685,6 +685,9 @@ img {
     align-items: center;
 }
 
+
+.footer-label {}
+
 .footer-input {
     width: 264px;
     height: 40px;
@@ -702,9 +705,8 @@ img {
 }
 
 .footer-input::placeholder {
-    color #ffffff;
+    color: #ffffff;
     font-size: 12px;
-
     line-height: 24px;
     letter-spacing: 0.48px;
 }
