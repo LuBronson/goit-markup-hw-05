@@ -665,6 +665,10 @@ img {
     margin-left: 80px;
 }
 
+.form-footer {
+    display: flex;
+}
+
 .subscribe-text {
     color: var(--white, #FFF);
     font-size: 16px;
