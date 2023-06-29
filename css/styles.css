@@ -1079,13 +1079,7 @@ textarea::placeholder {
 
 .checkbox-logo {}
 
-.checkbox-input:checked .checkbox-logo-span {
-    background-color: var(--ocean-link-color);
-    border: none;
-    fill: var(--footer-text-color)
-}
-
-.checkbox-container input:checked .checkbox-logo-span {
+.form-container input[type="checkbox"]:checked+label .checkbox-logo-span {
     background-color: var(--ocean-link-color);
     border: none;
     fill: var(--footer-text-color)
