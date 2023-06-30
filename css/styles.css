@@ -1025,7 +1025,7 @@ img {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: rgba(46, 47, 66, 0.4);
+    color: #2E2F42;
     resize: none;
     padding: 8px 16px;
     outline: transparent;
@@ -1055,7 +1055,9 @@ textarea::placeholder {
 
 }
 
-.checkbox-input {}
+.checkbox-input:focus {
+    background-color: var(--ocean-link-color);
+}
 
 .checkbox-text {
     color: var(--lightslate);
@@ -1077,6 +1079,11 @@ textarea::placeholder {
     align-items: center;
     justify-content: center;
     fill: transparent;
+}
+
+
+.form-container input[type="checkbox"]:focus+label .checkbox-logo-span {
+    border-color: #4D5AE5;
 }
 
 .checkbox-logo {}
